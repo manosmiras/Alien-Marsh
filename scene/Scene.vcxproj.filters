@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{01cb6949-7dd1-4d89-a620-a373809b7c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\shaders">
+      <UniqueIdentifier>{cdf5bf00-1244-40b5-b1f8-6505de83ee52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures">
+      <UniqueIdentifier>{69c5eb39-8f35-4f44-ba66-9117091384f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\textures\space_fighter_normal.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\space_fighter_tex.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\starfieldsphere.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\stonygrass.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\water.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\water_normal.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\3.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\4.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\beach_sand.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\brick.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\brick_normalmap.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\checked.gif">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\dissolve.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\grass.dds">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\grass.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\grass2.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\ground.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\Hyophorbe_lagenicaulis_dif2.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\Hyophorbe_lagenicaulis_normal.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\low_poly_grass_opacity.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\low_poly_grass_orange.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\low_poly_grass2.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\low_poly_grass2_normal.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\Planet_2.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\rock.dds">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\rock_normal.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\rock2.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\sand.dds">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\smiley_tran.gif">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\Snow.dds">
+      <Filter>resources\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\shaders\debug_normal_shader.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\debug_normal_shader.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\direction.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\direction_simple.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\fog.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\gouraud.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\gouraud.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\grass.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\grass.geom">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\grass.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\model.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\model.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\normal_map.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\normal_map_tbn.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\normals.geom">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\phong.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\phong.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\point.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\shader.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\shader.geom">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\shader.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\simple_texture.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\simple_texture.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\skybox.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\spot.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\terrain.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\terrain.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\water.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\water.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\wave.vert">
+      <Filter>resources\shaders</Filter>
+    </None>
+    <None Include="..\resources\shaders\weighted_texture.frag">
+      <Filter>resources\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

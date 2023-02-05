@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3FC00D2F-FFAC-41A0-976D-43FF85AA1949}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My069Skybox</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\graphics.props" />
+    <Import Project="..\graphics_framework.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\graphics.props" />
+    <Import Project="..\graphics_framework.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libENUgraphics\libENUgraphics.vcxproj">
+      <Project>{a943724c-1dc0-4711-9539-b78a8d6ecec7}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Node.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\textures\3.jpg" />
+    <Image Include="..\resources\textures\4.jpg" />
+    <Image Include="..\resources\textures\beach_sand.jpg" />
+    <Image Include="..\resources\textures\brick.jpg" />
+    <Image Include="..\resources\textures\brick_normalmap.jpg" />
+    <Image Include="..\resources\textures\checked.gif" />
+    <Image Include="..\resources\textures\dissolve.png" />
+    <Image Include="..\resources\textures\grass.dds" />
+    <Image Include="..\resources\textures\grass.png" />
+    <Image Include="..\resources\textures\grass2.png" />
+    <Image Include="..\resources\textures\ground.jpg" />
+    <Image Include="..\resources\textures\Hyophorbe_lagenicaulis_dif2.png" />
+    <Image Include="..\resources\textures\Hyophorbe_lagenicaulis_normal.png" />
+    <Image Include="..\resources\textures\low_poly_grass2.png" />
+    <Image Include="..\resources\textures\low_poly_grass2_normal.png" />
+    <Image Include="..\resources\textures\low_poly_grass_opacity.png" />
+    <Image Include="..\resources\textures\low_poly_grass_orange.png" />
+    <Image Include="..\resources\textures\Planet_2.png" />
+    <Image Include="..\resources\textures\rock.dds" />
+    <Image Include="..\resources\textures\rock2.jpg" />
+    <Image Include="..\resources\textures\rock_normal.jpg" />
+    <Image Include="..\resources\textures\sand.dds" />
+    <Image Include="..\resources\textures\smiley_tran.gif" />
+    <Image Include="..\resources\textures\Snow.dds" />
+    <Image Include="..\resources\textures\space_fighter_normal.png" />
+    <Image Include="..\resources\textures\space_fighter_tex.jpg" />
+    <Image Include="..\resources\textures\starfieldsphere.png" />
+    <Image Include="..\resources\textures\stonygrass.jpg" />
+    <Image Include="..\resources\textures\water.jpg" />
+    <Image Include="..\resources\textures\water_normal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\shaders\debug_normal_shader.frag" />
+    <None Include="..\resources\shaders\debug_normal_shader.vert" />
+    <None Include="..\resources\shaders\direction.frag" />
+    <None Include="..\resources\shaders\direction_simple.frag" />
+    <None Include="..\resources\shaders\fog.frag" />
+    <None Include="..\resources\shaders\gouraud.frag" />
+    <None Include="..\resources\shaders\gouraud.vert" />
+    <None Include="..\resources\shaders\grass.frag" />
+    <None Include="..\resources\shaders\grass.geom" />
+    <None Include="..\resources\shaders\grass.vert" />
+    <None Include="..\resources\shaders\model.frag" />
+    <None Include="..\resources\shaders\model.vert" />
+    <None Include="..\resources\shaders\normals.geom" />
+    <None Include="..\resources\shaders\normal_map.frag" />
+    <None Include="..\resources\shaders\normal_map_tbn.frag" />
+    <None Include="..\resources\shaders\phong.frag" />
+    <None Include="..\resources\shaders\phong.vert" />
+    <None Include="..\resources\shaders\point.frag" />
+    <None Include="..\resources\shaders\shader.frag" />
+    <None Include="..\resources\shaders\shader.geom" />
+    <None Include="..\resources\shaders\shader.vert" />
+    <None Include="..\resources\shaders\simple_texture.frag" />
+    <None Include="..\resources\shaders\simple_texture.vert" />
+    <None Include="..\resources\shaders\skybox.frag" />
+    <None Include="..\resources\shaders\skybox.vert" />
+    <None Include="..\resources\shaders\spot.frag" />
+    <None Include="..\resources\shaders\terrain.frag" />
+    <None Include="..\resources\shaders\terrain.vert" />
+    <None Include="..\resources\shaders\water.frag" />
+    <None Include="..\resources\shaders\water.vert" />
+    <None Include="..\resources\shaders\wave.vert" />
+    <None Include="..\resources\shaders\weighted_texture.frag" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
